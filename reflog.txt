@@ -1,0 +1,95 @@
+e36b4cc HEAD@{0}: commit (merge): Merging w master
+f80e6a6 HEAD@{1}: checkout: moving from master to lr-sampleweights
+cb591e1 HEAD@{2}: checkout: moving from lr-sampleweights to master
+f80e6a6 HEAD@{3}: rebase finished: returning to refs/heads/lr-sampleweights
+f80e6a6 HEAD@{4}: rebase: Uncommented 2 lines to be removed by #5207
+0068a2d HEAD@{5}: rebase: New attempt to fix failed bagging test.
+c4a4a32 HEAD@{6}: rebase: Reimplemented changes in 9d3becf and removed LogisticRegression tests from test_sample_weight_missing.
+6948520 HEAD@{7}: rebase: Removed class_weight tests for LogisticRegression from fcccad3.
+1e1f357 HEAD@{8}: rebase: Attempting to fix same issue as 9d3becf by instead implementing if statement in bagging.py.
+43f509a HEAD@{9}: rebase: Added tests for LogisticRegression and duplicated class_weight tests.
+75e3352 HEAD@{10}: rebase: Fixed issue of sample_weight=None being converted to np.array() and then not being reconigzed as None.
+edc84e7 HEAD@{11}: rebase: Fixed bug in naming of sample_weight when passed from _log_reg_scoring_path to logistic_regression_path.
+da3e542 HEAD@{12}: rebase: Changed test_probability in test_bagging.py to use 'lbfgs' solver.
+849c94c HEAD@{13}: rebase: Changes to accepted sample_weight type.
+8edfbc2 HEAD@{14}: rebase: Fixed bug in test_logistic_regressioncv_sample_weights where no data was created prior to fitting.
+af903d3 HEAD@{15}: rebase: Fixed bug with *= in logistic_regression_path.
+3339d96 HEAD@{16}: rebase: Added fourth test to test_logistic_regression_cv_sample_weights.
+a11c58f HEAD@{17}: rebase: Added third test to test_logistic_regressioncv_sample_weights.
+e458947 HEAD@{18}: rebase: Added second test to test_logistic_regressioncv_sample_weights.
+070bcae HEAD@{19}: rebase: Added first test to test_logistic_regressioncv_sample_weights.
+efa423e HEAD@{20}: rebase: Added definition of test_logistic_regressioncv_sample_weights.
+7c63cce HEAD@{21}: rebase: Added handling of sample weights in LogisticRegressionCV.fit()
+dca1946 HEAD@{22}: rebase: Added sample_weight parameter to fit() in the LogisticRegressionCV class.
+a5541ea HEAD@{23}: rebase: Added handling of sample sample weights in LogisticRegression.fit()
+a9f98a2 HEAD@{24}: rebase: Added sample_weight parameter to fit() in the LogisticRegression class.
+b8d4980 HEAD@{25}: rebase: Added handling of sample weights to _log_reg_scoring_path.
+8ec10c7 HEAD@{26}: rebase: Added sample_weight parameter to _log_reg_scoring_path.
+ca3f4a4 HEAD@{27}: rebase: Added handling of sample weights to logistic_regression_path.
+d1cba60 HEAD@{28}: rebase: Added sample_weight parameter to logistic_regression_path.
+e457716 HEAD@{29}: rebase: Updated documentation of class_weight throughout logistic.py
+094b8ee HEAD@{30}: rebase: Updated all calls to _check_solver_option()
+173d9a6 HEAD@{31}: rebase: Updated _check_solver_option to include sample_weight.
+cb591e1 HEAD@{32}: rebase: checkout master
+154cebb HEAD@{33}: commit: Uncommented 2 lines to be removed by #5207
+3101258 HEAD@{34}: rebase: aborting
+3101258 HEAD@{35}: checkout: moving from dc3a7386c250275d7baca43c66f8c6b1fcae43a8 to lr-sampleweights
+dc3a738 HEAD@{36}: commit: Rebased after PR #5207
+7fd277b HEAD@{37}: rebase: Removed class_weight tests for LogisticRegression from fcccad3.
+f576ccb HEAD@{38}: rebase: Attempting to fix same issue as 9d3becf by instead implementing if statement in bagging.py.
+ee95181 HEAD@{39}: rebase: Added tests for LogisticRegression and duplicated class_weight tests.
+8d933b6 HEAD@{40}: rebase: Fixed issue of sample_weight=None being converted to np.array() and then not being reconigzed as None.
+7e020b6 HEAD@{41}: rebase: Fixed bug in naming of sample_weight when passed from _log_reg_scoring_path to logistic_regression_path.
+83a7a72 HEAD@{42}: rebase: Changed test_probability in test_bagging.py to use 'lbfgs' solver.
+3351a83 HEAD@{43}: rebase: Changes to accepted sample_weight type.
+0198b1d HEAD@{44}: rebase: Fixed bug in test_logistic_regressioncv_sample_weights where no data was created prior to fitting.
+d594050 HEAD@{45}: rebase: Fixed bug with *= in logistic_regression_path.
+f136c26 HEAD@{46}: rebase: Added fourth test to test_logistic_regression_cv_sample_weights.
+f36bc50 HEAD@{47}: rebase: Added third test to test_logistic_regressioncv_sample_weights.
+fdd41fc HEAD@{48}: rebase: Added second test to test_logistic_regressioncv_sample_weights.
+ca65d37 HEAD@{49}: rebase: Added first test to test_logistic_regressioncv_sample_weights.
+71ec1c0 HEAD@{50}: rebase: Added definition of test_logistic_regressioncv_sample_weights.
+bb97551 HEAD@{51}: rebase: Added handling of sample weights in LogisticRegressionCV.fit()
+5971fc5 HEAD@{52}: rebase: Added sample_weight parameter to fit() in the LogisticRegressionCV class.
+9ce7b75 HEAD@{53}: rebase: Added handling of sample sample weights in LogisticRegression.fit()
+b459516 HEAD@{54}: rebase: Added sample_weight parameter to fit() in the LogisticRegression class.
+aa67311 HEAD@{55}: rebase: Added handling of sample weights to _log_reg_scoring_path.
+43e8e61 HEAD@{56}: rebase: Added sample_weight parameter to _log_reg_scoring_path.
+b08ca9d HEAD@{57}: rebase: Added handling of sample weights to logistic_regression_path.
+d068d3b HEAD@{58}: rebase: Added sample_weight parameter to logistic_regression_path.
+80af8bc HEAD@{59}: rebase: Updated documentation of class_weight throughout logistic.py
+5dc89e7 HEAD@{60}: rebase: Updated all calls to _check_solver_option()
+ce397cc HEAD@{61}: rebase: Updated _check_solver_option to include sample_weight.
+cb591e1 HEAD@{62}: rebase: checkout master
+3101258 HEAD@{63}: checkout: moving from master to lr-sampleweights
+cb591e1 HEAD@{64}: pull https://github.com/scikit-learn/scikit-learn.git master: Fast-forward
+e2e5fbd HEAD@{65}: checkout: moving from lr-sampleweights to master
+3101258 HEAD@{66}: commit: New attempt to fix failed bagging test.
+c61d950 HEAD@{67}: commit: Reimplemented changes in 9d3becf and removed LogisticRegression tests from test_sample_weight_missing.
+4e57485 HEAD@{68}: commit: Removed class_weight tests for LogisticRegression from fcccad3.
+dcb985b HEAD@{69}: commit: Attempting to fix same issue as 9d3becf by instead implementing if statement in bagging.py.
+fcccad3 HEAD@{70}: commit: Added tests for LogisticRegression and duplicated class_weight tests.
+4555bbb HEAD@{71}: commit: Fixed issue of sample_weight=None being converted to np.array() and then not being reconigzed as None.
+142e9a5 HEAD@{72}: commit: Fixed bug in naming of sample_weight when passed from _log_reg_scoring_path to logistic_regression_path.
+9d3becf HEAD@{73}: commit: Changed test_probability in test_bagging.py to use 'lbfgs' solver.
+194a73f HEAD@{74}: commit: Changes to accepted sample_weight type.
+2901183 HEAD@{75}: commit: Fixed bug in test_logistic_regressioncv_sample_weights where no data was created prior to fitting.
+5875f58 HEAD@{76}: commit: Fixed bug with *= in logistic_regression_path.
+b91454e HEAD@{77}: commit: Added fourth test to test_logistic_regression_cv_sample_weights.
+25be017 HEAD@{78}: commit: Added third test to test_logistic_regressioncv_sample_weights.
+414b180 HEAD@{79}: commit: Added second test to test_logistic_regressioncv_sample_weights.
+40254cb HEAD@{80}: commit: Added first test to test_logistic_regressioncv_sample_weights.
+9338af7 HEAD@{81}: commit: Added definition of test_logistic_regressioncv_sample_weights.
+fbc61c1 HEAD@{82}: commit: Added handling of sample weights in LogisticRegressionCV.fit()
+6b93fe5 HEAD@{83}: commit: Added sample_weight parameter to fit() in the LogisticRegressionCV class.
+9fdf318 HEAD@{84}: commit: Added handling of sample sample weights in LogisticRegression.fit()
+a704f9a HEAD@{85}: commit: Added sample_weight parameter to fit() in the LogisticRegression class.
+b842844 HEAD@{86}: commit: Added handling of sample weights to _log_reg_scoring_path.
+9cb3a18 HEAD@{87}: commit: Added sample_weight parameter to _log_reg_scoring_path.
+4417e2e HEAD@{88}: commit: Added handling of sample weights to logistic_regression_path.
+c86b24c HEAD@{89}: commit: Added sample_weight parameter to logistic_regression_path.
+867f4a5 HEAD@{90}: commit: Updated documentation of class_weight throughout logistic.py
+fe93286 HEAD@{91}: commit: Updated all calls to _check_solver_option()
+735928a HEAD@{92}: commit: Updated _check_solver_option to include sample_weight.
+e2e5fbd HEAD@{93}: checkout: moving from master to lr-sampleweights
+e2e5fbd HEAD@{94}: clone: from git@github.com:vstolbunov/scikit-learn.git
